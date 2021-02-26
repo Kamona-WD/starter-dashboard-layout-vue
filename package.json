@@ -1,0 +1,40 @@
+{
+  "name": "starter-dashboard-layout-vue",
+  "version": "0.0.1",
+  "description": "Starter responsive dashboard layout built with tailwindcss and vue 3",
+  "license": "MIT",
+  "keywords": [
+    "dashboard",
+    "tailwindcss",
+    "layout",
+    "vue 3",
+    "template",
+    "admin panel"
+  ],
+  "author": {
+    "name": "Ahmed Kamel",
+    "email": "ak3849909@gmail.com",
+    "url": "https://github.com/Kamona-WD"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^0.3.0",
+    "chart.js": "^2.9.4",
+    "vue": "^3.0.5",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.1.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.4",
+    "gh-pages": "^3.1.0",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3",
+    "vite": "^2.0.1"
+  }
+}

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .toggle:checked + span {
+    @apply top-0 bg-blue-600 left-6;
+  }
+  .toggle:disabled + span {
+    @apply bg-gray-500 shadow-none;
+  }
+  .toggle:checked:disabled {
+    @apply bg-gray-200;
+  }
+  .toggle:checked:disabled + span {
+    @apply bg-blue-400 shadow-none;
+  }
+  .toggle:focus + span {
+    @apply ring ring-blue-400;
+  }
+}
