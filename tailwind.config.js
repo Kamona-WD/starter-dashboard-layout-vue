@@ -5,12 +5,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {
-    // extend: {
-    //   backgroundColor: ['checked'],
-    //   overflow: ['hover'],
-    //   display: ['hover', 'focus', 'group-hover'],
-    // },
-  },
+  variants: {},
   plugins: [],
 }
