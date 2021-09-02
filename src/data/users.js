@@ -1,6 +1,6 @@
 const roles = ['Admin', 'Editor', 'User']
 
-const users = [
+export const users = [
   {
     id: 'c27eb2bd-13d3-4231-aa60-e392b5f60d2e',
     name: 'Agnes Bogisich',
@@ -72,9 +72,3 @@ const users = [
     active: false,
   },
 ]
-
-export default function useData() {
-  return {
-    users,
-  }
-}
