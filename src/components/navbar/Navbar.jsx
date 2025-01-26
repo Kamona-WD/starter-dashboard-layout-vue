@@ -1,7 +1,6 @@
-import { defineComponent, Transition } from 'vue'
+import { defineComponent } from 'vue'
 import { RouterLink } from 'vue-router'
 import { Menu, MenuButton, MenuItems, MenuItem, TransitionRoot } from '@headlessui/vue'
-import { ChevronDoubleRightIcon, SearchIcon, BellIcon, CogIcon } from '@heroicons/vue/outline'
 import {
   isNotificationsPanelOpen,
   isSearchPanelOpen,
@@ -84,10 +83,10 @@ export default defineComponent({
               K-WD
             </RouterLink>
 
-            <button onClick={toggleSidebar} class="p-2 rounded-md focus:outline-none focus:ring">
+            <button onClick={toggleSidebar} class="inline-flex items-center p-2 rounded-md focus:outline-none focus:ring">
               <span class="sr-only">Toggle sidebar</span>
-              <ChevronDoubleRightIcon
-                class={['w-4 h-4 text-gray-600', { 'transform transition-transform -rotate-180': isSidebarOpen.value }]}
+              <span
+                class={['iconify tabler--chevrons-right w-6 h-6 text-gray-600', { 'transform transition-transform -rotate-180': isSidebarOpen.value }]}
               />
             </button>
           </div>
@@ -98,7 +97,7 @@ export default defineComponent({
                 isSearchPanelOpen.value = true
               }}
             >
-              <SearchIcon aria-hidden="true" class="w-6 h-6" />
+              <span aria-hidden="true" class="iconify tabler--search w-6 h-6" />
             </IconButton>
 
             <IconButton
@@ -107,7 +106,7 @@ export default defineComponent({
                 isNotificationsPanelOpen.value = true
               }}
             >
-              <BellIcon aria-hidden="true" class="w-6 h-6" />
+              <span aria-hidden="true" class="iconify tabler--bell w-6 h-6" />
             </IconButton>
 
             <IconButton
@@ -116,7 +115,7 @@ export default defineComponent({
                 isSettingsPanelOpen.value = true
               }}
             >
-              <CogIcon aria-hidden="true" class="w-6 h-6" />
+              <span aria-hidden="true" class="iconify tabler--settings w-6 h-6" />
             </IconButton>
 
             <UserMenu />

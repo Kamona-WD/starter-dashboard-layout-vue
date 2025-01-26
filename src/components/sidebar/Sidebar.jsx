@@ -1,6 +1,5 @@
 import { defineComponent } from 'vue'
 import { RouterLink } from 'vue-router'
-import { HomeIcon, UserAddIcon, LoginIcon, LogoutIcon } from '@heroicons/vue/outline'
 import { isSidebarOpen } from '../../states/globalStates'
 import Overlay from '../global/Overlay'
 
@@ -8,17 +7,17 @@ const sidebarLinks = [
   {
     label: 'Home',
     component: 'Home',
-    icon: HomeIcon,
+    icon: 'tabler--home',
   },
   {
     label: 'Register',
     component: 'Register',
-    icon: UserAddIcon,
+    icon: 'tabler--user-plus',
   },
   {
     label: 'Login',
     component: 'Login',
-    icon: LoginIcon,
+    icon: 'tabler--login',
   },
 ]
 
@@ -49,7 +48,7 @@ const SidebarFooter = defineComponent({
     return () => (
       <div class="flex-shrink-0 p-2 border-t max-h-14">
         <button class="inline-flex items-center justify-center px-4 py-2 font-medium transition-colors rounded-md focus:outline-none focus:ring w-full text-gray-700 bg-gray-200 hover:bg-gray-300">
-          <LogoutIcon aria-hidden="true" class="w-6 h-6" />
+          <span aria-hidden="true" class="iconify tabler--logout w-6 h-6" />
           <span class={['ml-2', { 'lg:hidden': !isSidebarOpen.value }]}>Logout</span>
         </button>
       </div>
@@ -87,7 +86,7 @@ export default defineComponent({
                       { 'justify-center': !isSidebarOpen.value },
                     ]}
                   >
-                    <link.icon aria-hidden="true" class="flex-shrink-0 w-6 h-6 text-gray-400"></link.icon>
+                    <span aria-hidden="true" class={['iconify flex-shrink-0 w-6 h-6 text-gray-400', link.icon]}></span>
                     <span class={['ml-2', { 'lg:hidden': !isSidebarOpen.value }]}>{link.label}</span>
                   </RouterLink>
                 </li>

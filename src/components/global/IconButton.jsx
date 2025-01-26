@@ -16,7 +16,7 @@ export default defineComponent({
       <button
         type={props.type}
         {...attrs}
-        class="flex items-center justify-center p-2 text-gray-400 transition-colors bg-gray-100 rounded-full focus:outline-none focus:ring hover:bg-gray-200 hover:text-gray-500"
+        class="inline-flex items-center justify-center p-2 text-gray-400 transition-colors bg-gray-100 rounded-full focus:outline-none focus:ring hover:bg-gray-200 hover:text-gray-500"
       >
         <span class="sr-only">{props.text}</span>
         {slots.default()}
