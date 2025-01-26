@@ -1,6 +1,6 @@
 # Starter Responsive Dashboard Layout
 
-Starter responsive dashboard layout built with tailwindcss & vue 3 (vitejs)
+Starter responsive dashboard layout built with tailwindcss & vue 3
 
 [![GitHub license](https://img.shields.io/github/license/Kamona-WD/starter-dashboard-layout-vue)](https://github.com/Kamona-WD/starter-dashboard-layout-vue/blob/main/License.md)
 [![GitHub stars](https://img.shields.io/github/stars/Kamona-WD/starter-dashboard-layout-vue)](https://github.com/Kamona-WD/starter-dashboard-layout-vue/stargazers)
@@ -75,6 +75,4 @@ After that's done, check out `dist` to see the optimized output.
 
 ## Support
 
-<a href="https://www.buymeacoffee.com/ahmedkamel" target="_blank" style="display: inline-block !important;"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-###### Be careful and donate just if it is within your possibilities, because there is no refund system. And remember that you don't need to donate, it is just a free choice for you. Thank you!
+[![PayPal Me](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/Akamel721/)
