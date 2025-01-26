@@ -1,5 +1,4 @@
 import { defineComponent } from 'vue'
-import { DotsVerticalIcon, ExternalLinkIcon, TrendingUpIcon } from '@heroicons/vue/outline'
 import StatisticsChartCard from '../components/charts/StatisticsChartCard'
 import BarChart from '../components/charts/BarChart'
 import GithubIcon from '../components/icons/GithubIcon'
@@ -55,7 +54,7 @@ export default defineComponent({
                 <>
                   <h5 class="font-semibold">Import Data</h5>
                   <button class="p-2 rounded-full">
-                    <DotsVerticalIcon aria-hidden="true" class="w-6 h-6 text-gray-600" />
+                    <span aria-hidden="true" class="iconify tabler--dots-vertical w-6 h-6 text-gray-600" />
                     <span class="sr-only">More actions</span>
                   </button>
                 </>
@@ -80,7 +79,7 @@ export default defineComponent({
                         class="flex items-center px-2 py-1 space-x-2 text-sm text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring"
                       >
                         <span>Launch</span>
-                        <ExternalLinkIcon aria-hidden="true" class="w-4 h-4" />
+                        <span aria-hidden="true" class="iconify tabler--external-link w-4 h-4" />
                       </a>
                     </li>
                     <li class="flex items-start justify-between pt-4">
@@ -98,7 +97,7 @@ export default defineComponent({
                         class="flex items-center px-2 py-1 space-x-2 text-sm text-white bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:ring"
                       >
                         <span>Launch</span>
-                        <ExternalLinkIcon aria-hidden="true" class="w-4 h-4" />
+                        <span aria-hidden="true" class="iconify tabler--external-link w-4 h-4" />
                       </a>
                     </li>
                     <li class="pt-4 text-sm font-medium text-gray-400">
@@ -122,7 +121,7 @@ export default defineComponent({
                 <>
                   <h5 class="font-semibold">Monthly Expenses</h5>
                   <button class="p-2 rounded-full">
-                    <DotsVerticalIcon aria-hidden="true" class="w-6 h-6 text-gray-600" />
+                    <span aria-hidden="true" class="iconify tabler--dots-vertical w-6 h-6 text-gray-600" />
                     <span class="sr-only">More actions</span>
                   </button>
                 </>
@@ -132,7 +131,7 @@ export default defineComponent({
                   <div class="flex items-center p-4 space-x-4">
                     <span class="text-3xl font-medium">45%</span>
                     <span class="flex items-center px-2 space-x-2 text-sm text-green-800 bg-green-100 rounded">
-                      <TrendingUpIcon class="w-4 h-4" />
+                      <span class="iconify tabler--trending-up w-4 h-4" />
                       <span>39.2%</span>
                     </span>
                   </div>

@@ -25,12 +25,13 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.23",
-    "@heroicons/vue": "1",
     "chart.js": "3.5.*",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
+    "@iconify-json/tabler": "^1.2.15",
+    "@iconify/tailwind": "^1.2.0",
     "@vitejs/plugin-vue-jsx": "^4.1.1",
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.3.0",

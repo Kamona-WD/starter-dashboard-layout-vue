@@ -1,6 +1,5 @@
 import { defineComponent } from 'vue'
 import { Dialog, DialogOverlay, DialogTitle, TransitionRoot, TransitionChild } from '@headlessui/vue'
-import { XIcon } from '@heroicons/vue/outline'
 
 export default defineComponent({
   props: {
@@ -74,11 +73,11 @@ export default defineComponent({
                     >
                       <button
                         type="button"
-                        class="rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+                        class="inline-flex rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
                         onClick={close}
                       >
                         <span class="sr-only">Close panel</span>
-                        <XIcon aria-hidden="true" class="w-6 h-6" />
+                        <span aria-hidden="true" class="iconify tabler--x w-6 h-6" />
                       </button>
                     </div>
                   </TransitionChild>
